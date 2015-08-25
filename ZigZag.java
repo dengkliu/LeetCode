@@ -38,6 +38,7 @@ public class ZigZag {
             // Anyhow this passed the Leetcode test}
         }
         
+        // Why do we do this?
         StringBuilder result = list.get(0);
         for(int i=1; i<list.size();i++){
             result.append(list.get(i).toString());
