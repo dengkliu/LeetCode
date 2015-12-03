@@ -1,4 +1,4 @@
-public class Solution {
+public class WordLadder {
     Map<String,List<String>> map;
     List<List<String>> results;
     public List<List<String>> findLadders(String start, String end, Set<String> dict) {     
